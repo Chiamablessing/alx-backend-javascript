@@ -1,5 +1,4 @@
 function displayMessage(name) {
-    console.log('Hello ' + name);
+    console.log(name);
 }
-
-displayMessage('Chammy')
+module.exports = displayMessage;
